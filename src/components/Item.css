@@ -1,0 +1,36 @@
+.itemWrapper {
+    border: 1px solid grey;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 10px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .actions input {
+    margin: 10px;
+
+  }
+  
+  .itemWrapper p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+  }
+  
+  .checked {
+    background-color: lightyellow;
+    opacity: 0.7;
+  }
+  
+  .checked p {
+      text-decoration: line-through;
+  }
+  
